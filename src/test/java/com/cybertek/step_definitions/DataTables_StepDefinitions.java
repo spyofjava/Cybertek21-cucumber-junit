@@ -14,6 +14,10 @@ public class DataTables_StepDefinitions {
 
         for (String eachfruit: fruitList){
             System.out.println("eachfruit = " + eachfruit);
+
+
+
+
         }
 
 

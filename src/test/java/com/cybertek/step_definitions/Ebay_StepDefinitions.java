@@ -36,8 +36,8 @@ public class Ebay_StepDefinitions {
     public void userSearchFor(String arg0) {
 
         ebaySearchPage.searchBox.sendKeys(arg0+ Keys.ENTER);
-
     }
+
 
     @Then("user should see {string} title as expected")
     public void userShouldSeeTitleAsExpected(String arg0) {
