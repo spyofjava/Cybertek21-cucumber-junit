@@ -10,3 +10,4 @@ Feature: Ebay search feature
     Given user is on the Ebay home page
     When user search for "LG Led TV"
     Then user should see "LG Led TV" title as expected
+
