@@ -5,12 +5,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MyGoogleSearchPage {
+public class MyWikiPage {
 
-    public MyGoogleSearchPage() {
+
+    public MyWikiPage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(name = "q")
+    @FindBy(id = "searchInput")
     public WebElement searchBox;
+
+    @FindBy(xpath = "//i[@class='sprite svg-search-icon']")
+    public WebElement searchButton;
+
+    @FindBy(id = "firstHeading")
+    public WebElement mainHeader;
 }
