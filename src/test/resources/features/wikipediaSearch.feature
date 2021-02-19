@@ -19,7 +19,6 @@ Feature: Wikipedia search feature
 
 
 
-
     #one scenario 7 table
   @scenario_Outline
   Scenario Outline: Wikipedia search header verification
