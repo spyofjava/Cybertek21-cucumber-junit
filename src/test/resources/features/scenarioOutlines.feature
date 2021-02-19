@@ -25,6 +25,6 @@ Feature: Smartbear order feature
       | MyMoney | 2        | daniel       | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | daniel   |
      # | MyMoney | 2        | omer         | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | omer211      |
       | MyMoney | 2        | ruslan       | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | ruslan       |
-     # | MyMoney | 2        | cj           | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | cj           |
+      | MyMoney | 2        | cj           | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | cj           |
       | MyMoney | 2        | ayah         | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | ayah         |
       | MyMoney | 2        | chuck norris | 122 london st | london | chelsea | 55323 | visa     | 3333555533335555 | 12/21           | chuck norris |
